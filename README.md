@@ -1,79 +1,24 @@
-# Laravel Beginner Demo-Project: Personal Blog
+# Dokumentasi Penggunaan Aplikasi Website Artikel
 
-demo requirement brief
+# Melihat Artikel
+Pengguna yang belum login dapat dengan mudah menjelajahi artikel dan melihat detail artikel. Silakan kunjungi homepage untuk melihat daftar artikel, dan klik *Read More* untuk membaca kontennya. Selain itu, halaman *About Me* juga tersedia untuk dilihat.
 
----
+# Halaman About Me
+Halaman *About Me* memberikan informasi tentang pemilik akun dan kontributor di website ini. Pengguna yang belum login dapat mengakses halaman ini untuk mengetahui lebih lanjut.
 
-This repository is intentionally empty, with only a Readme file. Your task is to submit a Pull Request with your version of implementing the task and your PR will be reviewed by our team.
+# Login
+Untuk mengakses fitur penuh, Anda perlu login. Gunakan formulir login pada halaman utama dan masukkan kredensial akun Anda.
+Email : admin@gmail.com
+Password : 12345
 
----
+# Menambahkan Artikel
+Setelah login, Anda dapat menambahkan artikel baru. Ikuti langkah-langkah berikut:
+1. Tekan tombol "Create" di daftar artikel.
+2. Isi formulir dengan judul, gambar, konten, dan pilih kategori serta tag yang sesuai.
+3. Klik "Submit" untuk menyimpan artikel baru Anda.
 
-You need to create a simple Article with just 5 pages:
-
-- Homepage: List of articles
-- Article page to show single Article
-- Create page to create new Article
-- Edit page to update existing Article
-- Some static text page like "About me"
-
-Also, there should be a Login mechanism with Register for the author to write articles:
-
-- Manage (meaning, create/update/delete) categories
-- Manage tags
-- Manage articles
-- For Auth Starter Kit, use [Laravel Breeze](https://github.com/laravel/breeze) - that starter kit will have some design, which is enough: the design is irrelevant for accomplishing the task
-
-**DB Structure:**
-
-- Article has title (required), full text (required), and image to upload (optional)
-- Article may have only one category, but may have multiple tags
-
-## **Features to implement**
-
-you need to try to implement in your code:
-
-**Routing and Controllers: Basics**
-
-- Callback Functions and Route::view()
-- Routing to a Single Controller Method
-- Route Parameters
-- Route Naming
-- Route Groups
-
-**Blade Basics**
-
-- Displaying Variables in Blade
-- Blade If-Else and Loop Structures
-- Blade Loops
-- Layout: @include, @extends, @section, @yield
-- Blade Components
-
-**Auth Basics**
-
-- Default Auth Model and Access its Fields from Anywhere
-- Check Auth in Controller / Blade
-- Auth Middleware
-
-**Database Basics**
-
-- Database Migrations
-- Basic Eloquent Model and MVC: Controller -> Model -> View
-- Eloquent Relationships: belongsTo / hasMany / belongsToMany
-- Eager Loading and N+1 Query Problem
-
-**Full Simple CRUD**
-
-- Route Resource and Resourceful Controllers
-- Forms, Validation, and Form Requests
-- File Uploads and Storage Folder Basics
-- Table Pagination
-
-## **Example Solutions**
-
----
-
-If you need help, or you want to compare your version with our simple version, here are the public repositories with the solution:
-
-[https://github.com/DiazFarindra/laravel-beginner-demo-project](https://github.com/DiazFarindra/laravel-beginner-demo-project)
-
-**Notice**: please look at those repositories only AFTER you've accomplished the task yourself, or if you're confident about your Laravel beginner skills and you think you don't need to practice this task.
+# Mengedit dan Menghapus Artikel
+Jika Anda ingin memperbarui artikel yang sudah ada, langkah-langkah berikut dapat diikuti:
+1. Pergi kehalaman daftar artikel.
+2. Pilih opsi "Edit" untuk mengedit kontennya.
+3. Untuk menghapus artikel, pilih opsi "Delete".
