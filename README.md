@@ -1,32 +1,32 @@
-# Dokumentasi Penggunaan Aplikasi Website Artikel
+# Article Website Application Usage Documentation
 
-# Melihat Artikel
-Pengguna yang belum login dapat dengan mudah menjelajahi artikel dan melihat detail artikel. Silakan kunjungi homepage untuk melihat daftar artikel, dan klik *Read More* untuk membaca kontennya. Selain itu, halaman *About Me* juga tersedia untuk dilihat.
+# Viewing Articles
+Users who have not logged in can easily browse articles and view article details. Please visit the homepage to view the list of articles, and click *Read More* to read the content. In addition, the *About Me* page is also available for viewing.
 
-# Halaman About Me
-Halaman *About Me* memberikan informasi tentang pemilik akun dan kontributor di website ini. Pengguna yang belum login dapat mengakses halaman ini untuk mengetahui lebih lanjut.
+# About Me Page
+The *About Me* page provides information about the account owner and contributors on this website. Users who have not logged in can access this page to find out more.
 
 # Login
-Untuk mengakses fitur penuh, Anda perlu login. Gunakan formulir login pada halaman utama dan masukkan kredensial akun Anda.
+To access the full features, you need to login. Use the login form on the main page and enter your account credentials.
 Email : admin@gmail.com
 Password : 12345
 
-# Menambahkan Artikel
-Setelah login, Anda dapat menambahkan artikel baru. Ikuti langkah-langkah berikut:
-1. Tekan tombol "Create" di daftar artikel.
-2. Isi formulir dengan judul, gambar, konten, dan pilih kategori serta tag yang sesuai.
-3. Klik "Submit" untuk menyimpan artikel baru Anda.
+# Adding Articles
+After login, you can add a new article. Follow these steps:
+1. Press the "Create" button in the article list.
+2. Fill in the form with the title, image, content, and select the appropriate category and tags.
+3. Click "Submit" to save your new article.
 
-# Mengedit dan Menghapus Artikel
-Jika Anda ingin memperbarui artikel yang sudah ada, langkah-langkah berikut dapat diikuti:
-1. Pergi ke halaman daftar artikel.
-2. Pilih opsi "Edit" untuk mengedit kontennya.
-3. Untuk menghapus artikel, pilih opsi "Delete".
+# Editing and Deleting Articles
+If you want to update an existing article, the following steps can be followed:
+1. Go to the article list page.
+2. Select the "Edit" option to edit its content.
+3. To delete an article, select the "Delete" option.
 
-# Manajemen Kategori dan Tag
-Setelah login, Anda dapat mengelola kategori dan tag. Berikut petunjuknya:
-1. Pilih opsi "Kategori" atau "Tag" di menu utama.
-2. Tambahkan, edit, atau hapus kategori dan tag sesuai kebutuhan.
+# Category and Tag Management
+After login, you can manage categories and tags. Here are the instructions:
+1. Select the "Categories" or "Tags" option in the main menu.
+2. Add, edit, or delete categories and tags as needed.
 
 ---
 
