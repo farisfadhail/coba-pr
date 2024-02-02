@@ -19,6 +19,23 @@ Setelah login, Anda dapat menambahkan artikel baru. Ikuti langkah-langkah beriku
 
 # Mengedit dan Menghapus Artikel
 Jika Anda ingin memperbarui artikel yang sudah ada, langkah-langkah berikut dapat diikuti:
-1. Pergi kehalaman daftar artikel.
+1. Pergi ke halaman daftar artikel.
 2. Pilih opsi "Edit" untuk mengedit kontennya.
 3. Untuk menghapus artikel, pilih opsi "Delete".
+
+# Manajemen Kategori dan Tag
+Setelah login, Anda dapat mengelola kategori dan tag. Berikut petunjuknya:
+1. Pilih opsi "Kategori" atau "Tag" di menu utama.
+2. Tambahkan, edit, atau hapus kategori dan tag sesuai kebutuhan.
+
+---
+
+# How To Use
+1. clone this repo
+2. Copy .env.example file to .env and edit database
+3. Run composer install / composer update
+4. Run php artisan key:generate
+5. Run php artisan migrate --seed
+6. Run npm install
+7. Run npm run dev
+8. Run php artisan serve
