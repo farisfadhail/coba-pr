@@ -16,13 +16,13 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('admin.categories.index')">
+                    <x-nav-link :href="route('admin.categories.index')" :active="request()->routeIs('admin.categories.index')">
                         {{ __('Categories') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('admin.tags.index')">
+                    <x-nav-link :href="route('admin.tags.index')" :active="request()->routeIs('admin.tags.index')">
                         {{ __('Tag') }}
                     </x-nav-link>
-                    <x-nav-link :href="route('admin.article.index')">
+                    <x-nav-link :href="route('admin.article.index')" :active="request()->routeIs('admin.article.index')">
                         {{ __('Article') }}
                     </x-nav-link>
                     @endauth

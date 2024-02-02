@@ -9,7 +9,7 @@
             <div class="overflow-hidden bg-white shadow-sm sm:rounded-lg">
                 <div class="p-6 bg-gray-700 border-b border-gray-200">
                     <div class=" p-2 bg-gray-400 rounded-xl duration-300 shadow-lg hover:shadow-2xl">
-                        @foreach ( $articles as $article )
+                        @forelse ( $articles as $article )
                             <div class="p-2">
                                 <!-- Title -->
                                 <h2 class="font-bold text-3xl mb-2 " name='title'>{{$article->title}}</h2>
@@ -33,7 +33,9 @@
                             <div class="mb-10">
                                 <a href="{{ route('articles.show', ['article' => $article]) }}" class="text-white bg-gray-500 px-3 py-1  rounded-md hover:bg-gray-600 ">Read More</a>
                             </div>
-                        @endforeach
+                        @empty
+                            <h1>INI KOSONG</h1>
+                        @endforelse
                     </div>
                         </div>
                 </div>
